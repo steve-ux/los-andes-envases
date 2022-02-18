@@ -1,12 +1,15 @@
-import { Link } from "react-router-dom";
+import NavBar from "../components/navBar"
 
 function About() {
     return (
       
-        <div>
-          <h1>Esta es nuestra historia</h1>
-          <Link to="/"><h2>Home.</h2></Link>
-        </div>
+        <>
+          <NavBar/>
+          <div className="info-text">
+            <p>SOMOS UN ASERRADERO DEDICADO A LA CONFECCIÓN DE<br></br>ENVASES A MEDIDA PARA EL ENVASADO DE PRODUCTOS<br></br>AGRÍCOLAS Y HORTÍCOLAS. </p>
+            <img className='camion-img' src={require('../image/camion.jpeg')}/>
+          </div>
+        </>
     );
   }
   
