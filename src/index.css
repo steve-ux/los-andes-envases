@@ -9,7 +9,7 @@ body {
 /*navBar Styles*/
 .contentNavBar{
   height: 15vh;
-  width: 100vw;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.747);
  
 }
@@ -24,30 +24,56 @@ body {
   width: 15vh;
 }
 .contentMenu{
-  padding-right: 4%;
-  width: 25%;
+  padding-right: 4vw;
+  width: 40vw;
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 
 
 }
 .link{
   text-decoration:none;  
   color: white;
+  padding-right: 3vw;
   
-  font-size: 1.5vw;
+  font-size:2vw;
 }
 /*nosotros*/
 .info-text{
   height:84vh;
-  background-color: aqua;
+  width: 100%;
   display:flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-size: 1.9vw;
 }
 .camion-img{
-  height:62vh;
+  width: 100%;
+  height:60% ;
+}
+.text{
+  height: 40vh;
+  padding-bottom: 5vh;
+  padding-top: 10vh;
 }
 
+/*medias*/
 
+@media(max-width:768px){
+  .link{
+    text-decoration:none;  
+    color: white;
+    padding-right: 3vw;
+    
+    font-size:2.5vw;
+  }
+}
+@media(max-width:425px){
+  .link{
+    text-decoration:none;  
+    color: white;
+    padding-right: 3vw;
+    font-size:4vw;
+  }
+}
