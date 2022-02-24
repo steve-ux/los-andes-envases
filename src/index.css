@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "Telegraf Ultralight";
+  src: url("./fonts/Telegraf\ UltraLight\ 200.otf");
+}
+@font-face {
+  font-family: "Telegraf Ultrabold";
+  src: url("./fonts/Telegraf\ UltraBold\ 800.otf");
+}
+@font-face {
+  font-family: "Telegraf Regular";
+  src: url("./fonts/Telegraf\ Regular\ 400.otf");
+}
+
+:root {
+  --primary-font: "Telegraf Ultralight";
+  --secondary-font: "Telegraf Ultrabold";
+  --terciary-font: "Telegraf Regular";
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -10,7 +29,9 @@ body {
 .contentNavBar{
   height: 15vh;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.747);
+  background-color: rgba(0, 0, 0, 0.616);
+  position: absolute;
+  z-index: 2;
  
 }
 .contentNav{
@@ -21,7 +42,9 @@ body {
 .logoNav{
   padding-top: 1%;
   padding-left: 4%;
-  width: 15vh;
+  width: 17vh;
+  margin-left: 1rem;
+  margin-top: .8rem;
 }
 .contentMenu{
   padding-right: 4vw;
@@ -29,15 +52,16 @@ body {
   display:flex;
   justify-content: flex-end;
 
-
 }
 .link{
   text-decoration:none;  
   color: white;
-  padding-right: 3vw;
-  
-  font-size:2vw;
+  padding-right: 3vw;  
+  font-size:1.5vw;
+  font-family: var(--secondary-font);
+  margin-top: 1rem;
 }
+
 /*nosotros*/
 .info-text{
   height:84vh;
@@ -56,6 +80,120 @@ body {
   height: 40vh;
   padding-bottom: 5vh;
   padding-top: 10vh;
+}
+
+/* HOME*/
+
+.imageCamion {
+width: 100vw;
+height: 90vh;
+background-size: cover;
+}
+.introHome {
+  padding: 1rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin-left: 1rem;
+  font-family: var(--primary-font);
+  font-size: 2.5rem;
+  width: 80vw;
+}
+/* Carrusel */
+
+.carruselCaption {
+  margin-bottom: 22rem !important;
+}
+.textCaption {
+  font-size: 8rem;
+}
+.textCaption2 {
+  font-size: 2rem;
+}
+
+/* Productos */
+
+.nuestrosProductos {
+  font-family: var(--secondary-font);
+  padding: 1rem;
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.textNuestrosProductos {
+  font-family: var(--terciary-font);
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+.productos {
+  padding: 1rem;
+}
+.producto1 {
+  width: 30vw;
+  height: 90vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+
+/* hover styles */
+.location-listing {
+  position: relative;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+
+@media (hover: none) { 
+  .location-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
 }
 
 /*medias*/
