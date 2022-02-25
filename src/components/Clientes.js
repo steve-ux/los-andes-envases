@@ -1,6 +1,6 @@
-import Cliente1 from "../image/_NPH4856.jpg";
-import Cliente2 from "../image/_NPH4421.jpg";
-import Cliente3 from "../image/_NPH4654.jpg";
+import Cliente1 from "../image/user.png";
+import Cliente2 from "../image/user2.png";
+import Cliente3 from "../image/user3.png";
 
 function Clientes() {
   return (

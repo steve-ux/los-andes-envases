@@ -244,6 +244,7 @@ a {
   border-radius: .3rem;
   display: flex;
   align-items: center;
+  margin-bottom: 4rem;
 }
 .btnConocenosContainer {
   font-family: var(--primary-font);
@@ -258,7 +259,85 @@ a {
   color: var(--primary-color);
 }
 
+/* TABLAS */
 
+.containerTablas {
+  display: flex;
+}
+.containerTextTablas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgTablas {
+  width: 50%;
+  height: 30%;
+}
+.parrafoTablas {
+  font-family: var(--terciary-font);
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: var(--primary-color);
+  width: 60%;
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+  margin-left: 2rem;
+}
+.nuestrosProductos2 {
+  font-family: var(--secondary-font);
+  padding: 1rem;
+  margin-bottom: 6rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+.btnConocenos2 {
+  background-color: black;
+  color: white;
+  font-family: var(--primary-font);
+  padding: .5rem;
+  border-radius: .3rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+
+/* FORMULARIO */
+
+.formularioContainer {
+  background-image: url("./image/_NPH4879.jpg");
+  background-size: cover;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  font-family: var(--secondary-font);
+}
+
+.btnSend {
+  background-color: var(--primary-color);
+  color: white;
+  font-family: var(--primary-font);
+  padding: .5rem;
+  margin-bottom: 2rem;
+}
+.consultaTitle {
+  font-family: var(--secondary-font);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
 
 
 
