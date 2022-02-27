@@ -339,9 +339,14 @@ form {
   margin-left: 2rem;
 }
 
+/* Footer */
 
-
-
+.footerContainer {
+  background-color: black;
+  color: var(--primary-color);
+  font-family: var(--terciary-font);
+  padding: 3rem;
+}
 
 
 

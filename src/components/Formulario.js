@@ -1,4 +1,3 @@
-import ImgFormulario from "../image/_NPH4879.jpg";
 
 function Formulario() {
   return (
