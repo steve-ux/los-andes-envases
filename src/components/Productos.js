@@ -40,12 +40,12 @@ function Productos() {
         <h2 className="galleryTitle">CAJÓN CORTO</h2>
       </div>
       <div className="galleryItem">
-        <img src={Producto8} alt="" className="galleryImg" />
-        <h2 className="galleryTitle">Imagen 8</h2>
+        <img src={Producto1} alt="" className="galleryImg" />
+        <h2 className="galleryTitle">PERFILES</h2>
       </div>
       <div className="galleryItem">
-        <img src={Producto9} alt="" className="galleryImg" />
-        <h2 className="galleryTitle">Imagen 9</h2>
+        <img src={Producto2} alt="" className="galleryImg" />
+        <h2 className="galleryTitle">LÁMINAS</h2>
       </div>
     </div>
   );

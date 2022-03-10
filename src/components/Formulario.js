@@ -3,21 +3,27 @@ function Formulario() {
   return (
     <div className="formularioContainer">
         <h2 className="consultaTitle">ENVÍE SU CONSULTA</h2>
-      <form>
-      <label for="input_name">Nombre completo:</label>
-       <input required id="input_name" name="First_Name" 
-       type="text" placeholder="Nombre"/> 
+      <form action="https://formsubmit.co/exe.universal@gmail.com" method="POST">
+      <label for="full_name">Nombre completo:</label>
+       <input required id="full_name" name="Full_Name" 
+       type="text"/> 
        
-       <label for="input_last_name">Email:</label>
-       <input required id="input_last_name" name="Last_Name" 
-       type="text" placeholder="Email"/>
+       <label for="email">Email:</label>
+       <input required id="email" name="Email" 
+       type="text"/>
 
-       <label for="street_address">Mensaje:</label>
-       <input required id="street_address" name="Address" 
-       type="text" placeholder="Mensaje"/> 
+      
+       <label for="message">Mensaje:</label>
+       <textarea required id="message" name="Mensaje" 
+       type="textarea" className="inputMsj"/>
 
-      </form>
+      <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/>
+      <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
+      <input type="hidden" name="_captcha" value="false"/>
+       
+
       <button className="btnSend" type="submit" value="Send">ENVIAR</button>
+      </form>
     </div>
   );
 }

@@ -27,12 +27,8 @@ function Home() {
       />
       <h2 className="nuestrosProductos">Nuestros Productos</h2>
       <p className="textNuestrosProductos">
-        Lorem ipsum dolor sit amet consectetuer. Lorem ipsum dolor sit amet
-        consectetuer. Lorem ipsum dolor sit amet consectetuer.Lorem ipsum dolor
-        sit amet consectetuer. Lorem ipsum dolor sit amet consectetuer. Lorem
-        ipsum dolor sit amet consectetuer. Lorem ipsum dolor sit amet
-        consectetuer. Lorem ipsum dolor sit amet consectetuer. Lorem ipsum dolor
-        sit amet consectetuer. Lorem ipsum dolor sit amet consectetuer.
+      El constante crecimiento y desarrollo del Grupo Puebla y el aserradero "Los Andes" durante su prolongada trayectoria empresarial -iniciada en 1935- llevaron a una diversificación de sus actividades y por ende de sus productos.
+      Ofrecer una amplia variedad de éstos y servicios de calidad, asesoramiento y atención personalizada son los pilares que guían la empresa: Servicios de calidad, Logística de punta, Compromiso social, Avance tecnológico.
       </p>
       <div className="productos">
         <Productos />
