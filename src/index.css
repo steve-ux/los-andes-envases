@@ -130,6 +130,63 @@ a {
   font-size: 2rem;
 }
 
+@media (max-width: 1122px) {
+  .textCaption {
+    font-size: 6rem;
+  }
+  .textCaption2 {
+    font-size: 1rem;
+  }
+  .carruselCaption {
+    margin-bottom: 18rem !important;
+  }
+}
+@media (max-width: 900px) {
+  .textCaption {
+    font-size: 6rem;
+  }
+  .textCaption2 {
+    font-size: 1rem;
+  }
+  .carruselCaption {
+    margin-bottom: 10rem !important;
+  }
+}
+@media (max-width: 788px) {
+  .textCaption {
+    font-size: 4rem;
+  }
+  .textCaption2 {
+    font-size: 1rem;
+  }
+  .carruselCaption {
+    margin-bottom: 7rem !important;
+  }
+}
+@media (max-width: 600px) {
+  .textCaption {
+    font-size: 4rem;
+  }
+  .textCaption2 {
+    font-size: 1rem;
+  }
+  .carruselCaption {
+    margin-bottom: 4rem !important;
+  }
+}
+@media (max-width: 500px) {
+  .textCaption {
+    font-size: 4rem;
+  }
+  .textCaption2 {
+    font-size: 1rem;
+  }
+  .carruselCaption {
+    margin-bottom: 2rem !important;
+  }
+}
+
+
 /* Productos */
 
 .nuestrosProductos {
@@ -162,11 +219,11 @@ a {
 
 .galleryItem:nth-child(2) {
   grid-column-start: span 1;
-  grid-row-start: span 2;
+  grid-row-start: span 1;
 }
 .galleryItem:nth-child(5) {
-  grid-column-start: span 2;
-  grid-row-start: span 2;
+  grid-column-start: span 1;
+  grid-row-start: span 1;
 }
 .galleryItem {
   position: relative;
@@ -361,6 +418,54 @@ textarea {
   font-size: 3rem;
   margin-left: 2rem;
 }
+.consultaTitle2 {
+  font-family: var(--secondary-font);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+  text-align: center;
+  width: 60%;
+}
+
+@media (max-width: 1088px) {
+  
+  .btnSend {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--primary-font);
+    padding: .5rem;
+    margin-top: 2rem;
+    width: 30%;
+  }
+  
+}
+@media (max-width: 780px) {
+  
+  .btnSend {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--primary-font);
+    padding: .5rem;
+    margin-top: 2rem;
+    width: 40%;
+  }
+  
+}
+@media (max-width: 620px) {
+  
+  .btnSend {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--primary-font);
+    padding: .5rem;
+    margin-top: 2rem;
+    width: 50%;
+  }
+  
+}
 
 /* Footer */
 
@@ -385,6 +490,68 @@ textarea {
   color: white;
 }
 
+@media (max-width: 750px) {
+  .containerIconosFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logoLosAndes {
+    width: 30;
+  }
+  .logoCellphone {
+    margin-left: .5rem;
+  }
+  .correoIcon {
+    margin-left: 2rem;
+  }
+  .logoReloj {
+    margin-left: 1.5rem;
+  }
+
+  .footerContainer {
+    font-size: small;
+    width: 100%;
+  }
+  
+}
+
+
+/* Contacto */
+
+.titleContacto {
+  font-family: var(--secondary-font);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+  text-align: center;
+}
+.titleContacto2 {
+  font-family: var(--secondary-font);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+  text-align: center;
+}
+.mapsContacto {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+.textMaps {
+  font-family: var(--terciary-font);
+  color: #1E6554;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
