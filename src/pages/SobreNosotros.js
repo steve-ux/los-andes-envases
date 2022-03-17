@@ -1,5 +1,5 @@
 import NavBar from "../components/navBar";
-import Carrusel from "../components/Carrusel";
+import Carrusel from "../components/CarruselNosotros";
 import Footer from "../components/Footer";
  
 

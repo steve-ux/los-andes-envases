@@ -63,7 +63,7 @@ body {
   margin-top: 1rem;
 }
 .link:hover {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 a {
   text-decoration: none !important;
@@ -96,9 +96,9 @@ a {
 
 .imageCamion {
   width: 100vw;
-  height: 90vh;
+  height: 115vh;
   object-fit: cover;
-  background-size: cover;
+  background-size: contain;
 }
 .introHome {
   padding: 1rem;
@@ -124,10 +124,17 @@ a {
   margin-bottom: 22rem !important;
 }
 .textCaption {
-  font-size: 8rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: var(--secondary-font);
 }
 .textCaption2 {
   font-size: 2rem;
+  font-weight: bold;
+}
+.imgCarrusel {
+  filter: brightness(0.8) contrast(110%);
 }
 
 @media (max-width: 1122px) {
@@ -370,6 +377,14 @@ a {
 
 .formularioContainer {
   background-image: url("./image/_NPH4879.jpg");
+  background-size: cover;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formularioContainer2 {
+  background-image: url("./image/_NPH4713.jpg");
   background-size: cover;
   margin-top: 6rem;
   display: flex;

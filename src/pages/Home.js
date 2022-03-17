@@ -1,7 +1,7 @@
 import NavBar from "../components/navBar";
-import Carrusel from "../components/Carrusel";
+import Carrusel from "../components/CarruselHome";
 import Footer from "../components/Footer";
-import ImageCamion from "../image/_NPH48582.jpg";
+import ImageCamion from "../image/_NPH4829.jpg";
 import ImageTablas from "../image/_NPH47682.jpg";
 import Productos from "../components/Productos";
 import Clientes from "../components/Clientes";
@@ -15,7 +15,7 @@ function Home() {
       <Carrusel />
       <div className="containerIntroHome">
         <h3 className="introHome">
-          Somos un aserradero dedicado a la{" "}
+          Somos envases Los Andes, un aserradero perteneciente al grupo Puebla, dedicado a la{" "}
           <span className="resaltados">confección de envases</span> a medida
           para el envasado de productos agrícolas y hortícolas.
         </h3>

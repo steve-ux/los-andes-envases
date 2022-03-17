@@ -1,21 +1,21 @@
 
 function Formulario() {
   return (
-    <div className="formularioContainer">
+    <div className="formularioContainer2">
         <h2 className="consultaTitle2">Llená el formulario y nos comunicaremos a la brevedad.</h2>
       <form action="https://formsubmit.co/exe.universal@gmail.com" method="POST">
       <label for="full_name">Nombre completo:</label>
-       <input required id="full_name" name="Full_Name" 
+       <input required id="full_name" name="Nombre Completo" 
        type="text"/> 
        
        <label for="email">Email:</label>
        <input required id="email" name="Email" 
-       type="text"/>
+       type="email"/>
 
       
        <label for="message">Mensaje:</label>
        <textarea required id="message" name="Mensaje" 
-       type="textarea" className="inputMsj"/>
+       type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj"/>
 
       <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/>
       <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
