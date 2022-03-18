@@ -1,4 +1,4 @@
-import NavBar from "../components/navBar";
+import NavBar from "../components/Navigator/Navbar";
 import Carrusel from "../components/CarruselHome";
 import Footer from "../components/Footer";
 import ImageCamion from "../image/_NPH4829.jpg";
@@ -27,8 +27,8 @@ function Home() {
       />
       <h2 className="nuestrosProductos">Nuestros Productos</h2>
       <p className="textNuestrosProductos">
-      El constante crecimiento y desarrollo del Grupo Puebla y el aserradero "Los Andes" durante su prolongada trayectoria empresarial -iniciada en 1935- llevaron a una diversificación de sus actividades y por ende de sus productos.
-      Ofrecer una amplia variedad de éstos y servicios de calidad, asesoramiento y atención personalizada son los pilares que guían la empresa: Servicios de calidad, Logística de punta, Compromiso social, Avance tecnológico.
+      El constante crecimiento y desarrollo del Grupo Puebla durante su prolongada trayectoria empresarial -iniciada en 1935- llevaron a una diversificación de sus actividades y por ende de sus productos.
+      Envases "Los Andes" ofrece una amplia variedad de éstos. Servicios de calidad, asesoramiento y atención personalizada son los pilares que guían la empresa, además de: logística de punta, compromiso social, avance tecnológico y alta calidad.
       </p>
       <div className="productos">
         <Productos />

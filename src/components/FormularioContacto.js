@@ -1,7 +1,9 @@
 
 function Formulario() {
   return (
+    <>
     <div className="formularioContainer2">
+      <div className="content">
         <h2 className="consultaTitle2">Llená el formulario y nos comunicaremos a la brevedad.</h2>
       <form action="https://formsubmit.co/exe.universal@gmail.com" method="POST">
       <label for="full_name">Nombre completo:</label>
@@ -24,7 +26,10 @@ function Formulario() {
 
       <button className="btnSend" type="submit" value="Send">ENVIAR</button>
       </form>
-    </div>
+      </div>
+      </div>
+      </>
+    
   );
 }
 
