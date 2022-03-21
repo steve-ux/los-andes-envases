@@ -73,32 +73,166 @@ a {
 /*nosotros*/
 
 
+.img-equipo{
+  width:100%;
+}
 .info-text {
-  height: 84vh;
-  width: 100%;
+margin-top: 8%;
+width: 100%;
+}
+.contenedor-textoE{
+width: 100%;
+display: flex;
+justify-content: space-around;
+
+}
+.text-equipo{
+  margin-top: 5vh;
+  height:50%;
+  width: 20%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  font-size: 1.9vw;
+  flex-direction: column;
+  text-align: center;
+}
+.contImg-valores{
+  width: 50%;
+  display:flex;
+}
+.texto-valores{
+  display:flex;
+  flex-direction: column;
+  width:40vw;
+}
+.img-valores{
+  width: 40vw;
+  height: 45vw;
+  margin-left: 5vw;  
+}
+.text-nosotros-t{
+  font-size: 1.7vw;
+}
+.content-ultimo{
+  display:flex;
+height:80%;
+width: 100%;
+margin-top: 10vh;
+margin-bottom: 10%;
+}
+.imagenU{
+  width: 25%;
+  height:55%;
+  margin-top:20%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.textFinal{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 30%;
+  margin-left: 4%;
+  margin-top: 6%;
+  
+}
+.ultimo-text{
+  font-size: 1.7vw;
+}
+.imagenD{
+  width: 25%;
+  height:55%
+}
+.relleno{
+  background-color: #1E6554;
+  height:20vh;
+  width: 15vw;
+}
+@media (max-width: 320px) {
+  .texto-equipo{
+    position:relative;
+    top: 14vw !important;
+    padding-left: 6.5%;
+    color: white;
+  } 
+}
+.texto-primeroT{
+color:var(--primary-color);
+font-weight: bold;
+font-size: 2vw;
+}
+.contenedor-tercero{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 100%;
+  display:flex;
+}
+.text-secundario{
+  font-size: 2vw;
+}
+
+.texto-equipo{
+  position:relative;
+  top:10vw;
+  padding-left: 6.5%;
+  color: white;
 }
 .camion-img {
   width: 100%;
-  height: 60%;
+  height:58vh ;
 }
-.text {
+.text{
+  height: 30vh;
+  padding-bottom: 4vh;
+  padding-top: 4vh;
+  font-size: 180%;
+}
+/*pag 2*/
+
+.pagDos{
+  height:100vh;
+  width: 100%;
+  padding:0;
+  margin:0;
+}
+.textPagDos{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.textProductos{
+  font-size: 4vw;
+  padding-top: 4vh;
+  margin: 0;
+  margin-block-end: 0 !important;
+}
+.parafoProducto{
+  width: 40vw;
+}
+.imgProduct{
+  display:flex;
+}
+.pUno{
   height: 40vh;
-  padding-bottom: 5vh;
-  padding-top: 10vh;
+  width: 25vw;
+  background-image: url("./image/produno.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pDos{
+  height: 40vh;
+  width: 17vw;
+  background-image: url("./image/productDos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* HOME*/
 
 .imageCamion {
-  width: 100vw;
-  height: 115vh;
-  object-fit: cover;
-  background-size: contain;
+  width: 100%;
 }
 .introHome {
   padding: 1rem;
@@ -534,6 +668,12 @@ textarea {
   
 }
 
+/* Home */
+
+.titleHome {
+  text-align: center;
+  padding-bottom: 2rem;
+}
 
 /* Contacto */
 
