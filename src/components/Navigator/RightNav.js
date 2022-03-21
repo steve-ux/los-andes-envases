@@ -8,7 +8,7 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
 
   li {
-    padding: 40px 30px;
+    padding: 30px 30px;
     font-family: Telegraf Ultrabold;
     color: white;
     text-transform: uppercase;
@@ -31,6 +31,7 @@ const Ul = styled.ul`
     width: 200px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
+    z-index: 19;
 
     li {
       color: black;

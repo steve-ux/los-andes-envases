@@ -212,8 +212,37 @@ a {
   margin-bottom: 6rem;
   margin-left: 1rem;
   font-family: var(--primary-font);
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   width: 85vw;
+}
+@media (max-width: 750px) {
+  .introHome {
+    padding: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 1rem;
+    font-family: var(--primary-font);
+    font-size: 5vw;
+    width: 85vw;
+  }
+  .textNuestrosProductos {
+    font-family: var(--terciary-font);
+    padding: 1rem;
+    margin-bottom: 4rem;
+    font-size: 3vw !important;
+  }
+  .clientes .clientesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .clienteOpinion {
+    font-family: var(--terciary-font);
+    text-align: center;
+    font-size: 3vw !important;
+  }
+  
 }
 .containerIntroHome {
   background-color: rgba(148, 147, 147, 0.164);
@@ -279,7 +308,7 @@ a {
   font-family: var(--terciary-font);
   padding: 1rem;
   margin-bottom: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 .productos .galleryContainer {
   display: grid;
@@ -669,18 +698,21 @@ color: white !important;
     width: 30;
   }
   .logoCellphone {
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
   }
   .correoIcon {
     margin-left: 2rem;
   }
   .logoReloj {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
 
   .footerContainer {
     font-size: small;
     width: 100%;
+  }
+  .logoFb {
+    margin-right: 1rem;
   }
 }
 
