@@ -27,8 +27,8 @@ function Home() {
       />
       <h2 className="nuestrosProductos">Nuestros Productos</h2>
       <p className="textNuestrosProductos">
-      El constante crecimiento y desarrollo del Grupo Puebla durante su prolongada trayectoria empresarial -iniciada en 1935- llevaron a una diversificación de sus actividades y por ende de sus productos.
-      Envases "Los Andes" ofrece una amplia variedad de éstos. Servicios de calidad, asesoramiento y atención personalizada son los pilares que guían la empresa, además de: logística de punta, compromiso social, avance tecnológico y alta calidad.
+      El constante crecimiento y desarrollo del Grupo Puebla durante su prolongada trayectoria empresarial -iniciada en 1935- llevaron a una diversificación de sus actividades y por ende de sus productos. Cajones torito, jaula o cajones bandeja, para variedad de melones, frutillas o tomates cherry.
+      Envases "Los Andes" ofrece una amplia variedad de éstos. <span className="resaltados">Servicios de calidad, asesoramiento y atención personalizada</span> son los pilares que guían la empresa, además de: logística de punta, compromiso social, avance tecnológico y alta calidad.
       </p>
       <div className="productos">
         <Productos />
@@ -47,8 +47,8 @@ function Home() {
           <h2 className="nuestrosProductos2">¡CONSEGUÍ NUESTROS PRODUCTOS!</h2>
           <p className="parrafoTablas">
             Cumplimos con todos los estándares internacionales para asegurarnos
-            de obtener la mejor calidad en productos. Además te asesoramos en
-            cada paso.
+            de obtener la mejor calidad en productos. <span className="resaltados">Además te asesoramos en
+            cada paso.</span>
           </p>
           <Link to="/Contacto">
           <button className="btnConocenos2">CONTACTANOS</button>

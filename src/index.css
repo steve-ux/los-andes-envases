@@ -15,7 +15,7 @@
   --primary-font: "Telegraf Ultralight";
   --secondary-font: "Telegraf Ultrabold";
   --terciary-font: "Telegraf Regular";
-  --primary-color: #1E6554;
+  --primary-color: #1e6554;
 }
 
 body {
@@ -28,32 +28,6 @@ body {
 
 /*navBar Styles*/
 
-
-/* .contentNavBar {
-  height: 15vh;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.616);
-  position: absolute;
-  z-index: 2;
-}
-.contentNav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.logoNav {
-  padding-top: 1%;
-  padding-left: 4%;
-  width: 17vh;
-  margin-left: 1rem;
-  margin-top: 0.8rem;
-}
-.contentMenu {
-  padding-right: 4vw;
-  width: 40vw;
-  display: flex;
-  justify-content: flex-end;
-} */
 .link {
   text-decoration: none;
   color: white !important;
@@ -72,116 +46,114 @@ a {
 
 /*nosotros*/
 
-
-.img-equipo{
-  width:100%;
+.img-equipo {
+  width: 100%;
 }
 .info-text {
-margin-top: 8%;
-width: 100%;
+  margin-top: 8%;
+  width: 100%;
 }
-.contenedor-textoE{
-width: 100%;
-display: flex;
-justify-content: space-around;
-
+.contenedor-textoE {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-.text-equipo{
+.text-equipo {
   margin-top: 5vh;
-  height:50%;
+  height: 50%;
   width: 20%;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
 }
-.contImg-valores{
+.contImg-valores {
   width: 50%;
-  display:flex;
+  display: flex;
 }
-.texto-valores{
-  display:flex;
+.texto-valores {
+  display: flex;
   flex-direction: column;
-  width:40vw;
+  width: 40vw;
 }
-.img-valores{
+.img-valores {
   width: 40vw;
   height: 45vw;
-  margin-left: 5vw;  
+  margin-left: 5vw;
 }
-.text-nosotros-t{
+.text-nosotros-t {
   font-size: 1.7vw;
 }
-.content-ultimo{
-  display:flex;
-height:80%;
-width: 100%;
-margin-top: 10vh;
-margin-bottom: 10%;
+.content-ultimo {
+  display: flex;
+  height: 80%;
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10%;
 }
-.imagenU{
+.imagenU {
   width: 25%;
-  height:55%;
-  margin-top:20%;
+  height: 55%;
+  margin-top: 20%;
   margin-left: 5%;
   margin-right: 2%;
 }
-.textFinal{
-  display:flex;
+.textFinal {
+  display: flex;
   flex-direction: column;
   align-content: center;
   text-align: center;
   width: 30%;
   margin-left: 4%;
   margin-top: 6%;
-  
 }
-.ultimo-text{
+.ultimo-text {
   font-size: 1.7vw;
 }
-.imagenD{
+.imagenD {
   width: 25%;
-  height:55%
+  height: 55%;
 }
-.relleno{
-  background-color: #1E6554;
-  height:20vh;
+.relleno {
+  background-color: #1e6554;
+  height: 20vh;
   width: 15vw;
 }
 @media (max-width: 320px) {
-  .texto-equipo{
-    position:relative;
+  .texto-equipo {
+    position: relative;
     top: 14vw !important;
     padding-left: 6.5%;
     color: white;
-  } 
+  }
 }
-.texto-primeroT{
-color:var(--primary-color);
-font-weight: bold;
-font-size: 2vw;
+.texto-primeroT {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 2vw;
 }
-.contenedor-tercero{
+.contenedor-tercero {
   margin-top: 10vh;
   margin-bottom: 10vh;
   width: 100%;
-  display:flex;
+  display: flex;
 }
-.text-secundario{
+.text-secundario {
   font-size: 2vw;
 }
 
-.texto-equipo{
-  position:relative;
-  top:10vw;
+.texto-equipo {
+  position: relative;
+  top: 10vw;
+  font-size: 2vw;
   padding-left: 6.5%;
   color: white;
 }
 .camion-img {
   width: 100%;
-  height:58vh ;
+  height: 58vh;
 }
-.text{
+.text {
   height: 30vh;
   padding-bottom: 4vh;
   padding-top: 4vh;
@@ -189,39 +161,39 @@ font-size: 2vw;
 }
 /*pag 2*/
 
-.pagDos{
-  height:100vh;
+.pagDos {
+  height: 100vh;
   width: 100%;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
-.textPagDos{
-  display:flex;
+.textPagDos {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
-.textProductos{
+.textProductos {
   font-size: 4vw;
   padding-top: 4vh;
   margin: 0;
   margin-block-end: 0 !important;
 }
-.parafoProducto{
+.parafoProducto {
   width: 40vw;
 }
-.imgProduct{
-  display:flex;
+.imgProduct {
+  display: flex;
 }
-.pUno{
+.pUno {
   height: 40vh;
   width: 25vw;
   background-image: url("./image/produno.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.pDos{
+.pDos {
   height: 40vh;
   width: 17vw;
   background-image: url("./image/productDos.jpg");
@@ -248,85 +220,51 @@ font-size: 2vw;
   padding: 3rem;
 }
 .resaltados {
-  background-color: #1E6554;
-  color: white;
-  padding: .5rem;
+  box-decoration-break: clone;
+  background-image: linear-gradient(
+    90deg,
+    #fae129,
+    #1e6554
+  );
+  background-size: 100% 42%;
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
 }
 /* Carrusel */
 
 .carruselCaption {
-  margin-bottom: 22rem !important;
+  display: flex;
+  flex-direction: column;
+  top: 27vw;
+  color: #fff;
+  text-align: center;
 }
 .textCaption {
-  font-size: 4rem;
+  font-size: 4vw;
   text-transform: uppercase;
   font-weight: bold;
   font-family: var(--secondary-font);
 }
 .textCaption2 {
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: bold;
+  box-decoration-break: clone;
+  background-image: linear-gradient(
+    90deg,
+    #fae129,
+    #1e6554
+  );
+  background-size: 100% 42%;
+  background-repeat: no-repeat;
+  background-position: 0 80%;
+  color: rgb(255, 255, 255);
+  padding: 0.2rem;
 }
 .imgCarrusel {
   filter: brightness(0.8) contrast(110%);
 }
-
-@media (max-width: 1122px) {
-  .textCaption {
-    font-size: 6rem;
-  }
-  .textCaption2 {
-    font-size: 1rem;
-  }
-  .carruselCaption {
-    margin-bottom: 18rem !important;
-  }
-}
-@media (max-width: 900px) {
-  .textCaption {
-    font-size: 6rem;
-  }
-  .textCaption2 {
-    font-size: 1rem;
-  }
-  .carruselCaption {
-    margin-bottom: 10rem !important;
-  }
-}
-@media (max-width: 788px) {
-  .textCaption {
-    font-size: 4rem;
-  }
-  .textCaption2 {
-    font-size: 1rem;
-  }
-  .carruselCaption {
-    margin-bottom: 7rem !important;
-  }
-}
-@media (max-width: 600px) {
-  .textCaption {
-    font-size: 4rem;
-  }
-  .textCaption2 {
-    font-size: 1rem;
-  }
-  .carruselCaption {
-    margin-bottom: 4rem !important;
-  }
-}
-@media (max-width: 500px) {
-  .textCaption {
-    font-size: 4rem;
-  }
-  .textCaption2 {
-    font-size: 1rem;
-  }
-  .carruselCaption {
-    margin-bottom: 2rem !important;
-  }
-}
-
 
 /* Productos */
 
@@ -382,6 +320,8 @@ font-size: 2vw;
   transition: opacity 0.5s;
   background: rgba(0, 0, 0, 0.4);
   color: white;
+  font-weight: bold;
+  font-size: 3vw;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -436,24 +376,26 @@ font-size: 2vw;
   font-family: var(--secondary-font);
   color: var(--primary-color);
   padding-top: 1rem;
+  font-size: 2.5vw;
 }
 .clienteOpinion {
   font-family: var(--terciary-font);
   text-align: center;
+  font-size: 2vw;
 }
 .btnConocenos {
   background-color: black;
   color: white;
   font-family: var(--primary-font);
-  padding: .5rem;
-  border-radius: .3rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
 }
 .btnConocenosContainer {
   font-family: var(--primary-font);
-  padding: .5rem;
+  padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-decoration: none;
@@ -462,6 +404,11 @@ font-size: 2vw;
 }
 .btnConocenos:hover {
   color: var(--primary-color);
+  font-weight: bold;
+}
+.btnConocenos2:hover {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 /* TABLAS */
@@ -475,8 +422,39 @@ font-size: 2vw;
   justify-content: center;
 }
 .imgTablas {
-  width: 50%;
-  height: 30%;
+  width: 50vw;
+  height: 100vh;
+}
+@media (max-width: 759px) {
+  .imgTablas {
+    display: none;
+  }
+  .containerTablas {
+    background-image: url("./image/_NPH47682.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 150vh;
+  }
+  .nuestrosProductos2 {
+    font-family: var(--secondary-font);
+    color: white;
+    padding: 1rem;
+    margin-top: 20vh;
+    font-size: 1vh;
+    margin-left: 1rem !important;
+  }
+  .parrafoTablas {
+    font-family: var(--terciary-font);
+    font-weight: bold;
+    font-size: 1vw;
+    padding: 1rem;
+    color: white !important;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .btnConocenos2 {
+    margin-bottom: 12vh;
+  }
 }
 .parrafoTablas {
   font-family: var(--terciary-font);
@@ -500,13 +478,12 @@ font-size: 2vw;
   background-color: black;
   color: white;
   font-family: var(--primary-font);
-  padding: .5rem;
-  border-radius: .3rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
   margin-left: 2rem;
   display: flex;
   align-items: center;
 }
-
 
 /* FORMULARIO */
 
@@ -531,11 +508,46 @@ font-size: 2vw;
 form {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50vw;
   margin-bottom: 3rem;
   padding: 2rem;
   font-family: var(--secondary-font);
   color: white;
+}
+.btnEnviado {
+  background-color: black;
+  color: white;
+  font-family: var(--primary-font);
+  padding: .5rem;
+  margin-bottom: 3rem;
+  border-radius: 0.3rem;
+  margin-left: 2rem;  
+  align-items: center;
+}
+.contenedorBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.titleEnviado {
+  font-family: var(--secondary-font);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 7rem;
+  font-size: 3vw;
+  margin-left: 2rem;
+  text-align: center;
+}
+@media (max-width: 759px) {
+  form {
+    width: 70vw;
+  }  
+}
+@media (max-width: 699px) {
+  .titleEnviado {
+    font-size: 5vw;
+  }  
 }
 input {
   background-color: rgba(255, 255, 255, 0);
@@ -557,7 +569,7 @@ textarea {
   background-color: var(--primary-color);
   color: white;
   font-family: var(--primary-font);
-  padding: .5rem;
+  padding: 0.5rem;
   margin-top: 2rem;
   width: 20%;
 }
@@ -576,47 +588,46 @@ textarea {
   padding: 1rem;
   margin-bottom: 5rem;
   margin-top: 2rem;
-  font-size: 3rem;
+  font-size: 3vw;
   margin-left: 2rem;
   text-align: center;
   width: 60%;
 }
+@media (max-width: 759px) {
+  .consultaTitle2 {
+    font-size: 6vw;
+  }
+}
 
 @media (max-width: 1088px) {
-  
   .btnSend {
     background-color: var(--primary-color);
     color: white;
     font-family: var(--primary-font);
-    padding: .5rem;
+    padding: 0.5rem;
     margin-top: 2rem;
     width: 30%;
   }
-  
 }
 @media (max-width: 780px) {
-  
   .btnSend {
     background-color: var(--primary-color);
     color: white;
     font-family: var(--primary-font);
-    padding: .5rem;
+    padding: 0.5rem;
     margin-top: 2rem;
     width: 40%;
   }
-  
 }
 @media (max-width: 620px) {
-  
   .btnSend {
     background-color: var(--primary-color);
     color: white;
     font-family: var(--primary-font);
-    padding: .5rem;
+    padding: 0.5rem;
     margin-top: 2rem;
     width: 50%;
   }
-  
 }
 
 /* Footer */
@@ -629,17 +640,23 @@ textarea {
 }
 .containerIconosFooter {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
 }
 .correoIcon {
   margin-bottom: 1rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 .derechosReservados {
   text-align: center;
   margin-top: 2rem;
   color: white;
+}
+.firma {
+  opacity: 70%;
+}
+footer a:hover {
+color: white !important;
 }
 
 @media (max-width: 750px) {
@@ -652,7 +669,7 @@ textarea {
     width: 30;
   }
   .logoCellphone {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
   }
   .correoIcon {
     margin-left: 2rem;
@@ -665,7 +682,6 @@ textarea {
     font-size: small;
     width: 100%;
   }
-  
 }
 
 /* Home */
@@ -702,18 +718,26 @@ textarea {
   justify-content: space-evenly;
   margin-bottom: 5rem;
 }
+@media (max-width: 759px) {
+  .mapsContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .textMaps {
+    margin-top: 2rem;
+  }
+}
 .textMaps {
   font-family: var(--terciary-font);
-  color: #1E6554;
+  color: #1e6554;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-
-
-
 
 /*medias*/
 

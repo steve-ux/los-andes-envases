@@ -12,9 +12,9 @@ function Carrusel() {
             src={Image1}
             alt="Pallets de madera"
           />
-          <Carousel.Caption className="carruselCaption">
+          <Carousel.Caption className="center carruselCaption">
             <h1 className="textCaption">Calidad y compromiso</h1>
-            <p className="textCaption2">Envases Los Andes.</p>
+            <p className="textCaption2">DESDE 1936, GRUPO PUEBLA.</p>
           </Carousel.Caption>          
         </Carousel.Item>
         <Carousel.Item>
@@ -25,8 +25,8 @@ function Carrusel() {
           />
       
           <Carousel.Caption className="carruselCaption">
-            <h1 className="textCaption">Atención personalizada</h1>
-            <p className="textCaption2">Envases Los Andes.</p>
+            <h1 className="textCaption">Logística de punta</h1>
+            <p className="textCaption2">DESDE HACE MÁS DE 95 AÑOS.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -37,8 +37,8 @@ function Carrusel() {
           />
       
           <Carousel.Caption className="carruselCaption">
-            <h1 className="textCaption">Lo necesario para su producto agrícola</h1>
-            <p className="textCaption2">Envases Los Andes.</p>
+            <h1 className="textCaption">Avance tecnológico</h1>
+            <p className="textCaption2">Y CONSTANTE EXPANSIÓN DE LA INDUSTRIA.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

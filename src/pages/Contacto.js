@@ -16,7 +16,7 @@ function Contacto() {
       <div className="textMaps">
       <p>Km 1023 - Ruta Nacional 7</p>
       <a href="tel:2615069690"><p>261 506-9690</p></a>
-      <a href="mailto:hello@grupopuebla.com"><p>hello@grupopuebla.com</p></a>
+      <a href="mailto:info@envaseslosandes.com"><p>info@envaseslosandes.com</p></a>
       </div>      
       </div>
       <Footer />

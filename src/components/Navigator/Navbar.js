@@ -16,8 +16,13 @@ const Nav = styled.nav`
     padding: 15px 15px;
   }
   .logoNav {
-    width: 10%;
-    padding: 9px;
+    width: 8vw;
+    padding: 10px;
+  }
+  @media (max-width: 759px) {
+    .logoNav {
+      width: 16vw;
+    }
   }
 `
 

@@ -13,8 +13,8 @@ function Carrusel() {
             alt="Pallets de madera"
           />
           <Carousel.Caption className="carruselCaption">
-            <h1 className="textCaption">Calidad y compromiso</h1>
-            <p className="textCaption2">Envases Los Andes.</p>
+            <h1 className="textCaption">Trabajo en equipo</h1>
+            <p className="textCaption2">INCREMENTANDO LA MOTIVACIÓN Y LAS HABILIDADES SOCIALES.</p>
           </Carousel.Caption>          
         </Carousel.Item>
         <Carousel.Item>
@@ -26,7 +26,7 @@ function Carrusel() {
       
           <Carousel.Caption className="carruselCaption">
             <h1 className="textCaption">Atención personalizada</h1>
-            <p className="textCaption2">Envases Los Andes.</p>
+            <p className="textCaption2">AL CUIDADO DE NUESTROS CLIENTES.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -37,8 +37,8 @@ function Carrusel() {
           />
       
           <Carousel.Caption className="carruselCaption">
-            <h1 className="textCaption">Lo necesario para su producto agrícola</h1>
-            <p className="textCaption2">Envases Los Andes.</p>
+            <h1 className="textCaption">Variedad de productos</h1>
+            <p className="textCaption2">TODO LO NECESARIO PARA SU LABOR AGRÍCOLA.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -9,15 +9,15 @@ function Productos() {
     <div className="galleryContainer">
       <div className="galleryItem">
         <img src={Producto5} alt="" className="galleryImg" />
-        <h2 className="galleryTitle">CAJÓN ALTO</h2>
+        <h2 className="galleryTitle">CAJÓN TORITO</h2>
       </div>
       <div className="galleryItem">
         <img src={Producto6} alt="" className="galleryImg" />
-        <h2 className="galleryTitle">CAJÓN FRUTA</h2>
+        <h2 className="galleryTitle">CAJÓN JAULA</h2>
       </div>
       <div className="galleryItem">
         <img src={Producto7} alt="" className="galleryImg" />
-        <h2 className="galleryTitle">CAJÓN CORTO</h2>
+        <h2 className="galleryTitle">CAJÓN BANDEJA</h2>
       </div>
       <div className="galleryItem">
         <img src={Producto1} alt="" className="galleryImg" />
