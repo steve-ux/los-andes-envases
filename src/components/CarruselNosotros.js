@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image1 from '../image/_NPH4868.jpg';
-import Image2 from '../image/_NPH4618.jpg';
-import Image3 from '../image/_NPH4421.jpg';
+import Image1 from '../image/_NPH4789.webp';
+import Image2 from '../image/_NPH4618.webp';
+import Image3 from '../image/_NPH4421.webp';
 
 function Carrusel() {
     return (

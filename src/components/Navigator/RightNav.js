@@ -14,7 +14,7 @@ const Ul = styled.ul`
     text-transform: uppercase;
   }
   li:hover {
-      color: #1E6554;
+      color: #a31c46;
   }
   a {
       text-decoration: none;

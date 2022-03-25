@@ -1,10 +1,10 @@
 import NavBar from "../components/Navigator/Navbar";
 import Carrusel from "../components/CarruselNosotros";
-import Image1 from '../image/equipo.jpg';
-import Image2 from '../image/valores.png';
+import Image1 from '../image/equipo.webp';
+import Image2 from '../image/valores.webp';
 import Footer from "../components/Footer";
-import Image3 from '../image/_NPH4858.jpg';
-import Image4 from '../image/_NPH4642.jpg';
+import Image3 from '../image/_NPH4858.webp';
+import Image4 from '../image/_NPH4642.webp';
 
 function About() {
     return (
@@ -63,7 +63,7 @@ function About() {
             Ofrecer una amplia variedad de <span className="resaltados">productos y servicios de calidad,</span> asesoramiento y atención personalizada son los pilares que guían la empresa.<br></br><br></br>
             La materia prima con que se elaboran los envases es producto de tala de
 árboles propios sembrados para tal fin, asegurando el <span className="resaltados">cuidado del medio
-ambiente en todos los aspectos</span> y reduciendo el impacto ambiental.<br></br><br></br>
+ambiente</span> en todos los aspectos y reduciendo el impacto ambiental.<br></br><br></br>
 
 SERVICIO DE CALIDAD – LOGÍSTICA DE PUNTA- COMPROMISO SOCIAL – AVANCE TECNOLÓGICO
 

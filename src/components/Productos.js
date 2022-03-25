@@ -1,8 +1,8 @@
-import Producto1 from "../image/_NPH4856.jpg";
-import Producto2 from "../image/_NPH4421.jpg";
-import Producto5 from "../image/5.jpg";
-import Producto6 from "../image/4.jpg";
-import Producto7 from "../image/3.jpg";
+import Producto1 from "../image/_NPH4856.webp";
+import Producto2 from "../image/_NPH4421.webp";
+import Producto5 from "../image/5.webp";
+import Producto6 from "../image/4.webp";
+import Producto7 from "../image/3.webp";
 
 function Productos() {
   return (

@@ -15,7 +15,7 @@
   --primary-font: "Telegraf Ultralight";
   --secondary-font: "Telegraf Ultrabold";
   --terciary-font: "Telegraf Regular";
-  --primary-color: #1e6554;
+  --primary-color: #a31c46;
 }
 
 body {
@@ -161,19 +161,8 @@ a {
 }
 /*pag 2*/
 
-.pagDos {
-  height: 100vh;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-.textPagDos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
+
+
 .textProductos {
   font-size: 4vw;
   padding-top: 4vh;
@@ -189,14 +178,14 @@ a {
 .pUno {
   height: 40vh;
   width: 25vw;
-  background-image: url("./image/produno.jpg");
+  background-image: url("./image/produno.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .pDos {
   height: 40vh;
   width: 17vw;
-  background-image: url("./image/productDos.jpg");
+  background-image: url("./image/productDos.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -242,6 +231,19 @@ a {
     text-align: center;
     font-size: 3vw !important;
   }
+  .resaltados {
+    box-decoration-break: clone;
+    background-image: linear-gradient(
+      90deg,
+      #a31c46,
+      #a31c46
+    );
+    background-size: 99% 32% !important;
+    background-repeat: no-repeat;
+    background-position: 0 90%;
+    color: rgb(0, 0, 0);
+    padding: 0.2rem !important;
+  }
   
 }
 .containerIntroHome {
@@ -252,8 +254,8 @@ a {
   box-decoration-break: clone;
   background-image: linear-gradient(
     90deg,
-    #fae129,
-    #1e6554
+    #a31c46,
+    #a31c46
   );
   background-size: 100% 42%;
   background-repeat: no-repeat;
@@ -261,12 +263,26 @@ a {
   color: rgb(0, 0, 0);
   padding: 0.5rem;
 }
+.resaltados2 {
+  box-decoration-break: clone;
+  background-image: linear-gradient(
+    90deg,
+    #a31c46,
+    #a31c46
+  );
+  background-size: 100% 42%;
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+}
+
 /* Carrusel */
 
 .carruselCaption {
   display: flex;
   flex-direction: column;
-  top: 27vw;
+  top: 23vw;
   color: #fff;
   text-align: center;
 }
@@ -282,8 +298,8 @@ a {
   box-decoration-break: clone;
   background-image: linear-gradient(
     90deg,
-    #fae129,
-    #1e6554
+    #a31c46,
+    #a31c46
   );
   background-size: 100% 42%;
   background-repeat: no-repeat;
@@ -357,6 +373,11 @@ a {
   justify-content: center;
   cursor: default;
 }
+.galleryTitle:hover {
+  color: white;
+  background: #a31c4762;
+  transition: background 0.3s ease-in;
+}
 .galleryImg {
   filter: blur(0px);
 }
@@ -365,9 +386,8 @@ a {
 }
 
 .galleryItem:hover .galleryImg {
-  filter: blur(2px);
+  filter: blur(1px);
   transition: filter 0.3s ease-in;
-  transform: scale(1);
 }
 
 /* for touch screen devices */
@@ -459,7 +479,7 @@ a {
     display: none;
   }
   .containerTablas {
-    background-image: url("./image/_NPH47682.jpg");
+    background-image: url("./image/_NPH47682.webp");
     background-size: cover;
     width: 100vw;
     height: 150vh;
@@ -517,7 +537,7 @@ a {
 /* FORMULARIO */
 
 .formularioContainer {
-  background-image: url("./image/_NPH4879.jpg");
+  background-image: url("./image/_NPH4879.webp");
   background-size: cover;
   margin-top: 6rem;
   display: flex;
@@ -525,7 +545,7 @@ a {
   align-items: center;
 }
 .formularioContainer2 {
-  background-image: url("./image/_NPH4713.jpg");
+  background-image: url("./image/_NPH4713.webp");
   background-size: cover;
   margin-top: 6rem;
 }
@@ -581,7 +601,7 @@ form {
 input {
   background-color: rgba(255, 255, 255, 0);
   border: none;
-  border-bottom: 1px solid #1e6554a4;
+  border-bottom: 1px solid #a31c46;
 }
 .inputMsj {
   padding: 1rem;
@@ -744,6 +764,9 @@ color: white !important;
   font-size: 3rem;
   margin-left: 2rem;
   text-align: center;
+}
+.direccion {
+  color: var(--primary-color);
 }
 .mapsContacto {
   display: flex;

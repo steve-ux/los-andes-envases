@@ -1,4 +1,4 @@
-import Logo from "../image/logo.png";
+import Logo from "../image/logo-red2.png";
 import Cellphone from "../image/cellphone.png";
 import Email from "../image/email.png";
 import Clock from "../image/clock.png";

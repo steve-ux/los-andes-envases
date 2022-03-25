@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import Logo from "../../image/logo.png";
+import Logo from "../../image/logo-red2.png";
 
 const Nav = styled.nav`
-  height: 12vh;
+  height: 13vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,7 @@ const Nav = styled.nav`
   }
   .logoNav {
     width: 7vw;
-    padding: 8px;
+    padding: 12px;
   }
   @media (max-width: 759px) {
     .logoNav {

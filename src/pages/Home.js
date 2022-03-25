@@ -1,8 +1,8 @@
 import NavBar from "../components/Navigator/Navbar";
 import Carrusel from "../components/CarruselHome";
 import Footer from "../components/Footer";
-import ImageCamion from "../image/_NPH4829.jpg";
-import ImageTablas from "../image/_NPH47682.jpg";
+import ImageCamion from "../image/_NPH4829.webp";
+import ImageTablas from "../image/_NPH47682.webp";
 import Productos from "../components/Productos";
 import Clientes from "../components/Clientes";
 import Formulario from "../components/Formulario";
@@ -47,7 +47,7 @@ function Home() {
           <h2 className="nuestrosProductos2">¡CONSEGUÍ NUESTROS PRODUCTOS!</h2>
           <p className="parrafoTablas">
             Cumplimos con todos los estándares internacionales para asegurarnos
-            de obtener la mejor calidad en productos. <span className="resaltados">Además te asesoramos en
+            de obtener la mejor calidad en productos. <span className="resaltados2">Además te asesoramos en
             cada paso.</span>
           </p>
           <Link to="/Contacto">

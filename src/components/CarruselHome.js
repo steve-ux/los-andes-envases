@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image1 from '../image/DJI_0077.jpg';
-import Image2 from '../image/_NPH4870.jpg';
-import Image3 from '../image/_NPH4735.jpg';
+import Image1 from '../image/DJI_0077.webp';
+import Image2 from '../image/_NPH4870.webp';
+import Image3 from '../image/_NPH4735.webp';
 
 function Carrusel() {
     return (
@@ -14,7 +14,7 @@ function Carrusel() {
           />
           <Carousel.Caption className="center carruselCaption">
             <h1 className="textCaption">Calidad y compromiso</h1>
-            <p className="textCaption2">DESDE 1936, GRUPO PUEBLA.</p>
+            <p className="textCaption2">DESDE 1936.</p>
           </Carousel.Caption>          
         </Carousel.Item>
         <Carousel.Item>
