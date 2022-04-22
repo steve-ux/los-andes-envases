@@ -82,7 +82,7 @@ a {
   margin-left: 5vw;
 }
 .text-nosotros-t {
-  font-size: 1.7vw;
+  font-size: 1.3vw;
 }
 .content-ultimo {
   display: flex;
@@ -108,7 +108,8 @@ a {
   margin-top: 6%;
 }
 .ultimo-text {
-  font-size: 1.7vw;
+  font-size: 1.3vw;
+  text-align: justify;
 }
 .imagenD {
   width: 25%;
@@ -139,7 +140,8 @@ a {
   display: flex;
 }
 .text-secundario {
-  font-size: 2vw;
+  font-size: 1.3vw;
+  text-align: justify;
 }
 
 .texto-equipo {
@@ -201,7 +203,7 @@ a {
   margin-bottom: 6rem;
   margin-left: 1rem;
   font-family: var(--primary-font);
-  font-size: 2.5vw;
+  font-size: 2vw;
   width: 85vw;
 }
 @media (max-width: 750px) {
@@ -211,14 +213,14 @@ a {
     margin-bottom: 6rem;
     margin-left: 1rem;
     font-family: var(--primary-font);
-    font-size: 5vw;
+    font-size: 3vw;
     width: 85vw;
   }
   .textNuestrosProductos {
     font-family: var(--terciary-font);
     padding: 1rem;
     margin-bottom: 4rem;
-    font-size: 3vw !important;
+    font-size: 1vw !important;
   }
   .clientes .clientesContainer {
     display: flex;
@@ -229,9 +231,9 @@ a {
   .clienteOpinion {
     font-family: var(--terciary-font);
     text-align: center;
-    font-size: 3vw !important;
+    font-size: 2vw !important;
   }
-  .resaltados {
+  /* .resaltados {
     box-decoration-break: clone;
     background-image: linear-gradient(
       90deg,
@@ -243,14 +245,14 @@ a {
     background-position: 0 90%;
     color: rgb(0, 0, 0);
     padding: 0.2rem !important;
-  }
+  } */
   
 }
 .containerIntroHome {
   background-color: rgba(148, 147, 147, 0.164);
   padding: 3rem;
 }
-.resaltados {
+/* .resaltados {
   box-decoration-break: clone;
   background-image: linear-gradient(
     90deg,
@@ -262,8 +264,8 @@ a {
   background-position: 0 90%;
   color: rgb(0, 0, 0);
   padding: 0.5rem;
-}
-.resaltados2 {
+} */
+/* .resaltados2 {
   box-decoration-break: clone;
   background-image: linear-gradient(
     90deg,
@@ -275,7 +277,7 @@ a {
   background-position: 0 90%;
   color: rgb(0, 0, 0);
   padding: 0.5rem;
-}
+} */
 
 /* Carrusel */
 
@@ -295,12 +297,6 @@ a {
 .textCaption2 {
   font-size: 2vw;
   font-weight: bold;
-  box-decoration-break: clone;
-  background-image: linear-gradient(
-    90deg,
-    #a31c46,
-    #a31c46
-  );
   background-size: 100% 42%;
   background-repeat: no-repeat;
   background-position: 0 80%;
@@ -318,7 +314,7 @@ a {
   padding: 1rem;
   margin-top: 6rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .textNuestrosProductos {
   font-family: var(--terciary-font);
@@ -425,12 +421,12 @@ a {
   font-family: var(--secondary-font);
   color: var(--primary-color);
   padding-top: 1rem;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 .clienteOpinion {
   font-family: var(--terciary-font);
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.2rem;
 }
 .btnConocenos {
   background-color: black;
@@ -489,7 +485,7 @@ a {
     color: white;
     padding: 1rem;
     margin-top: 20vh;
-    font-size: 1vh;
+    font-size: .5vh;
     margin-left: 1rem !important;
   }
   .parrafoTablas {
@@ -520,7 +516,7 @@ a {
   font-family: var(--secondary-font);
   padding: 1rem;
   margin-bottom: 6rem;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-left: 2rem;
 }
 .btnConocenos2 {

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import Logo from "../../image/logo-red2.png";
+import Logo from "../../image/logo.png";
 
 const Nav = styled.nav`
   height: 13vh;
