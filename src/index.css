@@ -220,13 +220,15 @@ a {
     font-family: var(--terciary-font);
     padding: 1rem;
     margin-bottom: 4rem;
-    font-size: 1vw !important;
   }
   .clientes .clientesContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .clienteItem {
+    margin-bottom: -6rem !important;
   }
   .clienteOpinion {
     font-family: var(--terciary-font);
@@ -314,13 +316,13 @@ a {
   padding: 1rem;
   margin-top: 6rem;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .textNuestrosProductos {
   font-family: var(--terciary-font);
   padding: 1rem;
   margin-bottom: 4rem;
-  font-size: 1.5vw;
+  font-size: 1rem;
 }
 .productos .galleryContainer {
   display: grid;
@@ -437,6 +439,7 @@ a {
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
+  margin-top: 2rem;
 }
 .btnConocenosContainer {
   font-family: var(--primary-font);
@@ -624,7 +627,7 @@ textarea {
   padding: 1rem;
   margin-bottom: 5rem;
   margin-top: 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-left: 2rem;
 }
 .consultaTitle2 {
