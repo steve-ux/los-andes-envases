@@ -17,15 +17,15 @@ function Footer() {
               </div>
               <div>
               <img src={Cellphone} width="50" alt="Cellphone" className="logoCellphone"/>
-            <a href="tel:2615069690"><p>261 506-9690</p></a> 
+            <a href="tel:2615069690"><p className="tel">261 506-9690</p></a> 
               </div>
             <div>
             <img src={Email} width="70" alt="Correo electrónico" className="correoIcon"/>
-            <a href="mailto:info@envaseslosandes.com"><p>info@envaseslosandes.com</p></a>
+            <a href="mailto:info@envaseslosandes.com"><p className="email">info@envaseslosandes.com</p></a>
             </div>
             <div>
             <img src={Clock} width="60" alt="Horarios" className="logoReloj"/>
-            <p>8:00 AM - 21:00 PM</p>
+            <p className="horarios">8:00 AM - 21:00 PM</p>
             </div>
             <a href="https://www.facebook.com/LosAndesAserradero" target="_blank" rel="noreferrer"><img src={Facebook} width="60" alt="Logo Facebook" className="logoFb"/></a>
             </div>
