@@ -227,7 +227,7 @@ a {
     align-items: center;
   }
   .clienteItem {
-    margin-bottom: -6rem !important;
+    margin-bottom: -9rem !important;
   }
   .clienteOpinion {
     font-family: var(--terciary-font);
@@ -240,32 +240,6 @@ a {
   background-color: rgba(148, 147, 147, 0.164);
   padding: 3rem;
 }
-/* .resaltados {
-  box-decoration-break: clone;
-  background-image: linear-gradient(
-    90deg,
-    #a31c46,
-    #a31c46
-  );
-  background-size: 100% 42%;
-  background-repeat: no-repeat;
-  background-position: 0 90%;
-  color: rgb(0, 0, 0);
-  padding: 0.5rem;
-} */
-/* .resaltados2 {
-  box-decoration-break: clone;
-  background-image: linear-gradient(
-    90deg,
-    #a31c46,
-    #a31c46
-  );
-  background-size: 100% 42%;
-  background-repeat: no-repeat;
-  background-position: 0 90%;
-  color: rgb(0, 0, 0);
-  padding: 0.5rem;
-} */
 
 /* Carrusel */
 
@@ -425,7 +399,6 @@ a {
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
-  margin-top: 2rem;
 }
 .btnConocenosContainer {
   font-family: var(--primary-font);
@@ -488,6 +461,9 @@ a {
   }
   .btnConocenos2 {
     margin-bottom: 12vh;
+  }
+  .btnConocenos {    
+  margin-top: 3rem;
   }
 }
 .parrafoTablas {
