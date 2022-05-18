@@ -42,10 +42,13 @@ function About() {
           <img src={Image2} className="img-valores" alt="Empleado frente a la cámara y un horno de fondo"/> 
           </div>
           <div className="texto-valores">
-            <h1>ENVASES LOS ANDES</h1>
+            <h1>MISIÓN</h1>
             <p className="text-nosotros-t">
-            Desde 1936 la fabricación de envases de madera es la actividad pionera de la familia Puebla. Desde hace más de 95 años satisface la demanda en envases, de los principales productores frutihortícolas de la región.<br></br><br></br>
-            Con un propio sistema de logística y sucursales distribuidas en puntos estratégicos del país, garantiza la producción y entrega de productos donde el empresario productor lo requiera.<br></br><br></br>Con ansias del perfeccionamiento constante y de la expansión de la industria en envases, el plan de desarrollo apuesta por la incorporación de tecnología que permite <span className="resaltados">duplicar la capacidad de producción.</span>
+            Nos dedicamos a diseñar, producir y comercializar envases de madera de punta para diversas industrias desde más de 80 años con los mismos principios de nuestro origen. Con la finalidad de satisfacer las necesidades de nuestros clientes estamos atentos a sus requerimientos e innovamos permanentemente, mejorando continuamente los procesos con tecnología de vanguardia y la calidad profesional de nuestros colaboradores.
+            </p>
+            <h1>VISIÓN</h1>
+            <p className="text-nosotros-t">
+            Ser la empresa líder del país en fabricación de envases de madera para la industria frutihortícola del país. Con materia prima de producción propia y mediante un equipo de colaboradores especializados y comprometidos, brindamos soluciones integrales de calidad a los diversos requerimientos del mercado, con tecnología de avanzada y una logística de calidad.
             </p>
           </div>
           </div>

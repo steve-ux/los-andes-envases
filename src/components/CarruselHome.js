@@ -26,7 +26,7 @@ function Carrusel() {
       
           <Carousel.Caption className="carruselCaption">
             <h1 className="textCaption">Logística de punta</h1>
-            <p className="textCaption2">DESDE HACE MÁS DE 95 AÑOS.</p>
+            <p className="textCaption2">DESDE HACE MÁS DE 80 AÑOS.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

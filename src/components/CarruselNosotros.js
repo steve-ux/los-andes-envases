@@ -14,7 +14,7 @@ function Carrusel() {
           />
           <Carousel.Caption className="carruselCaption">
             <h1 className="textCaption">Vasta Experiencia</h1>
-            <p className="textCaption2">DIRIGIDA POR TERCERA Y CUARTA GENERACIÓN FAMILIAR.</p>
+            <p className="textCaption2">DIRIGIDA POR la TERCERA Y CUARTA GENERACIÓN.</p>
           </Carousel.Caption>          
         </Carousel.Item>
         <Carousel.Item>
@@ -38,7 +38,7 @@ function Carrusel() {
       
           <Carousel.Caption className="carruselCaption">
             <h1 className="textCaption">Cuidado del medio ambiente</h1>
-            <p className="textCaption2">TALA DE ÁRBOLES PROPIOS SEMBRADOS PARA TAL FIN.</p>
+            <p className="textCaption2">Producción de bosques implantados para la preservación</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

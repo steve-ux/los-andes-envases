@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import ImageCamion from "../image/_NPH4829.webp";
 import ImageTablas from "../image/_NPH47682.webp";
 import Productos from "../components/Productos";
-import Clientes from "../components/Clientes";
 import Formulario from "../components/Formulario";
 import { Link } from "react-router-dom";
 
@@ -15,9 +14,7 @@ function Home() {
       <Carrusel />
       <div className="containerIntroHome">
         <h3 className="introHome">
-          Somos envases Los Andes, un aserradero perteneciente al grupo Puebla, dedicado a la{" "}
-          <span className="resaltados">confección de envases</span> a medida
-          para el envasado de productos agrícolas y hortícolas.
+        Desde 1936 la fabricación de envases de madera es la actividad pionera de la Familia Puebla. Desde hace más de 80 años Aserradero Los Andes, satisface la demanda en envases de los principales productores frutihortícolas del país.
         </h3>
       </div>
       <img
@@ -25,22 +22,12 @@ function Home() {
         className="imageCamion"
         alt="Camión cargado con cajas"
       />
-      <h2 className="nuestrosProductos">Nuestros Productos</h2>
+      <h2 className="nuestrosProductos">Pura madera con legado familiar</h2>
       <p className="textNuestrosProductos">
-      El constante crecimiento y desarrollo del Grupo Puebla durante su prolongada trayectoria empresarial -iniciada en 1935- llevaron a una diversificación de sus actividades y por ende de sus productos. Cajones torito, jaula o cajones bandeja, para variedad de melones, frutillas o tomates cherry.
-      Envases "Los Andes" ofrece una amplia variedad de éstos. <span className="resaltados">Servicios de calidad, asesoramiento y atención personalizada</span> son los pilares que guían la empresa, además de: logística de punta, compromiso social, avance tecnológico y alta calidad.
+      Nos dedicamos a diseñar, producir y comercializar envases de madera de punta para diversas industrias desde más de 80 años con los mismos principios de nuestro origen. Con la finalidad de satisfacer las necesidades de nuestros clientes estamos atentos a sus requerimientos e innovamos permanentemente, mejorando continuamente los procesos con tecnología de vanguardia y la calidad profesional de nuestros colaboradores.
       </p>
       <div className="productos">
         <Productos />
-      </div>
-      <h2 className="nuestrosProductos">NUESTROS CLIENTES HABLAN</h2>
-      <div className="clientes">
-        <Clientes />
-      </div>
-      <div className="btnConocenosContainer">
-        <Link to="/SobreNosotros">
-          <button className="btnConocenos">CONOCENOS</button>
-        </Link>
       </div>
       <div className="containerTablas">
         <div className="containerTextTablas">
