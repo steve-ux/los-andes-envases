@@ -8,7 +8,7 @@ const Nav = styled.nav`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);;
   z-index: 20;
 
   .logo {
