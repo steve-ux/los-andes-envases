@@ -45,11 +45,11 @@ function About() {
           <img
             src={Image2}
             className="img-valores"
-            alt="Empleado frente a la cámara y un horno de fondo"
+            alt="El señor Puebla inspeccionando"
           />
         </div>
         <div className="texto-valores">
-          <h1>MISIÓN</h1>
+          <h2>MISIÓN</h2>
           <p className="text-nosotros-t">
             Nos dedicamos a diseñar, producir y comercializar envases de madera
             de punta para diversas industrias desde más de 80 años con los
@@ -59,7 +59,7 @@ function About() {
             los procesos con tecnología de vanguardia y la calidad profesional
             de nuestros colaboradores.
           </p>
-          <h1>VISIÓN</h1>
+          <h2>VISIÓN</h2>
           <p className="text-nosotros-t">
             Ser la empresa líder del país en fabricación de envases de madera
             para la industria frutihortícola del país. Con materia prima de
@@ -68,26 +68,14 @@ function About() {
             calidad a los diversos requerimientos del mercado, con tecnología de
             avanzada y una logística de calidad.
           </p>
-        </div>
-      </div>
-
-      <div className="content-ultimo">
-        <div className="textFinal">
-          <h1>VALORES</h1>
-          <p className="ultimo-text">
-            <br></br>
-            <br></br>
-            Ofrecer una amplia variedad de{" "}
-            <span className="resaltados">
+          <h2>VALORES</h2>
+          <p className="text-nosotros-t">Ofrecer una amplia variedad de
               productos y servicios de calidad,
-            </span>{" "}
             asesoramiento y atención personalizada son los pilares que guían la
             empresa.<br></br>
             La materia prima con que se elaboran los envases es producto de tala
-            de árboles propios sembrados para tal fin, asegurando el{" "}
-            <span className="resaltados">cuidado del medio ambiente</span> en
-            todos los aspectos y reduciendo el impacto ambiental.
-          </p>
+            de árboles propios sembrados para tal fin, asegurando el cuidado del medio ambiente en
+            todos los aspectos y reduciendo el impacto ambiental.</p>
         </div>
       </div>
       <div className="iconos-valores">
@@ -118,6 +106,7 @@ function About() {
           </div>
         </div>
       </div>
+<br></br>
 <br></br>
       <Footer />
     </>
