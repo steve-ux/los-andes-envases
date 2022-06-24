@@ -50,3 +50,4 @@ const RightNav = ({ open }) => {
 }
 
 export default RightNav;
+

@@ -2,7 +2,6 @@ import Logo from "../image/logo.png";
 import Cellphone from "../image/cellphone.png";
 import Email from "../image/email.png";
 import Clock from "../image/clock.png";
-import Heart from "../image/heart.png";
 import Facebook from "../image/facebook.png";
 import { Link } from "react-router-dom";
 
@@ -30,11 +29,9 @@ function Footer() {
             <a href="https://www.facebook.com/LosAndesAserradero" target="_blank" rel="noreferrer"><img src={Facebook} width="60" alt="Logo Facebook" className="logoFb"/></a>
             </div>
             <div className="derechosReservados">
-              Todos los derechos reservados © <span id="get-current-year">{new Date().getFullYear()}</span>
+              Grupo Puebla | Todos los derechos reservados © <span id="get-current-year">{new Date().getFullYear()}</span>
             </div>
-            <a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer"><div className="derechosReservados firma">
-              Con <img src={Heart} alt="Coranzón verde oscuro" width="20"/> desde Mendoza - ARG
-            </div></a>
+            <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">EDev</a></span></p>
           </footer>
       </div>
     );

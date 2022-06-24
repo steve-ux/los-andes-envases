@@ -22,7 +22,7 @@ function About() {
         />
       </div>
       <div className="nuestros-numeros">
-        <h2>
+        <h2 className="titleNumeros">
           NUESTROS <span style={{ color: "green" }}>NÚMEROS</span>
         </h2>
         <div className="container-numeros">

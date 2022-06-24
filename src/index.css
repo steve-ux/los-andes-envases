@@ -118,7 +118,60 @@ a {
 }
 .text-nosotros-t {
   font-size: 0.8rem;
-  text-align: center;
+  text-align: justify;
+}
+@media (max-width: 699px) {
+  .text-nosotros-t {
+    font-size: 0.7rem;
+    text-align: justify;    
+    width: 120%;
+    margin-left: -1rem;
+  }
+  .contenedor-tercero {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-valores {
+    width: 58vw;
+    height: 45vw;
+    margin-left: -3vw;
+  }
+}
+@media (max-width: 999px) {
+  .text-nosotros-t {
+    font-size: 0.7rem;
+    text-align: justify;
+  }
+  .contenedor-tercero {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1260px) {
+  .text-nosotros-t {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .contenedor-tercero {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-tercero h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 .content-ultimo {
   display: flex;
@@ -182,14 +235,16 @@ a {
     font-weight: bold;
   }
   .texto-primeroT {
-    color: var(--primary-color);
+    color: black;
+    filter: drop-shadow(3px 5px 20px rgb(255, 255, 255));
     font-weight: bold;
     font-size: 2.5rem !important;
     text-align: center;
   }
 }
 .texto-primeroT {
-  color: var(--primary-color);
+  color: black;
+  filter: drop-shadow(3px 5px 20px rgb(255, 255, 255));
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
@@ -459,6 +514,9 @@ a {
   font-family: var(--terciary-font);
   text-align: center;
   font-size: 1.2rem;
+}
+.titleNumeros {
+  padding: 2rem;
 }
 .btnConocenos {
   background-color: black;
@@ -741,6 +799,12 @@ textarea {
 }
 .firma {
   opacity: 70%;
+}
+.text-footer2 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: .7rem;
+  color: rgb(110, 110, 110);
 }
 footer a:hover {
 color: white !important;
