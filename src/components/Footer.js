@@ -26,12 +26,12 @@ function Footer() {
             <img src={Clock} width="60" alt="Horarios" className="logoReloj"/>
             <p className="horarios">8:00 AM - 21:00 PM</p>
             </div>
-            <a href="https://www.facebook.com/LosAndesAserradero" target="_blank" rel="noreferrer"><img src={Facebook} width="60" alt="Logo Facebook" className="logoFb"/></a>
+            <a href="https://www.facebook.com/LosAndesAserradero" target="_blank" rel="noreferrer"><img src={Facebook} width="50" alt="Logo Facebook" className="logoFb"/></a>
             </div>
             <div className="derechosReservados">
-              Grupo Puebla | Todos los derechos reservados © <span id="get-current-year">{new Date().getFullYear()}</span>
+              Envases Los Andes | Todos los derechos reservados © <span id="get-current-year">{new Date().getFullYear()}</span>
             </div>
-            <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">EDev</a></span></p>
+            <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">DevFreelancer</a></span></p>
           </footer>
       </div>
     );

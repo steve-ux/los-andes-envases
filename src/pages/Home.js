@@ -22,10 +22,12 @@ function Home() {
         className="imageCamion"
         alt="Camión cargado con cajas"
       />
+      <div className="containerIntroHome">
       <h2 className="nuestrosProductos">Pura madera con legado familiar</h2>
-      <p className="textNuestrosProductos">
+      <p className="introHome2">
       Nos dedicamos a diseñar, producir y comercializar envases de madera de punta para diversas industrias desde más de 80 años con los mismos principios de nuestro origen. Con la finalidad de satisfacer las necesidades de nuestros clientes estamos atentos a sus requerimientos e innovamos permanentemente, mejorando continuamente los procesos con tecnología de vanguardia y la calidad profesional de nuestros colaboradores.
       </p>
+      </div>
       <div className="productos">
         <Productos />
       </div>
