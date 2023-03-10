@@ -31,7 +31,7 @@ function Footer() {
             <div className="derechosReservados">
               Envases Los Andes | Todos los derechos reservados © <span id="get-current-year">{new Date().getFullYear()}</span>
             </div>
-            <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">DevFreelancer</a></span></p>
+            <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">PixelPeak</a></span></p>
           </footer>
       </div>
     );

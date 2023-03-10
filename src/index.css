@@ -807,8 +807,14 @@ textarea {
   margin-top: 2rem;
   color: white;
 }
-.firma {
-  opacity: 70%;
+footer .firma {
+  text-transform: none;
+  color: #00fe7f95 !important;
+  font-size: .7rem;
+  text-decoration: none;
+}
+footer .firma:hover {
+  color: #00fe7f !important;
 }
 .text-footer2 {
   text-align: center;
