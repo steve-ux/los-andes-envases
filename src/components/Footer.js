@@ -16,7 +16,7 @@ function Footer() {
               </div>
               <div>
               <img src={Cellphone} width="50" alt="Cellphone" className="logoCellphone"/>
-            <a href="tel:2615069690"><p className="tel">261 506-9690</p></a> 
+            <a href="tel:2613825821"><p className="tel">261 382-5821</p></a> 
               </div>
             <div>
             <img src={Email} width="70" alt="Correo electrónico" className="correoIcon"/>
